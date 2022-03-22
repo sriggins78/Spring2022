@@ -1,0 +1,210 @@
+	/*Murphys Auto Showroom Stylesheet*/
+
+     	 
+	/* #1 Motorsport banner*/
+	
+		.banner {
+		
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		background-color: black;
+		align-items: center;
+		height: 2em;
+		width: 100%;
+		color: white;
+		font-size: 1em;
+		padding-top: 1em;
+		text-align: center;
+		padding-bottom: 1em;
+		
+		}
+
+	/*Navigation bar*/
+	
+	.topnav {
+		display: flex;
+		justify-content: center;
+		overflow: hidden;
+		background-color: white;
+		width: 100%;
+		
+	}
+	
+	/*Links in navigation bar*/
+	
+	.topnav a {
+		float: center;
+		color: black;
+		text-align: center;
+		padding: .2em .2em .2em .2em;
+		text-decoration: none;
+		font-size: 1.5em;
+		padding-left: .5em;
+		
+	}
+	
+	/*Color links in navigation bar*/
+	
+	.topnav a:hover {
+		color: white;
+		background-color: black;
+	}
+	
+	/*Color of active link*/
+	
+	.topnav a.active {
+		background-color: none;
+		color: red;
+	}
+	
+	/* Logo & Address info */
+	
+	.flex-container > div {
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 1em;
+		color: black;
+		text-align: center;
+		text-transform: uppercase;
+		width: 100%;
+		justify-content: center;	
+		padding: 0 0 .5em 0;
+		
+		}
+	
+	/* Vehicle Pictures */
+	
+	.carousel-inner {
+		height: 100%;
+		width: 100%;
+		position: center;
+		}
+	
+		
+	/*Interest rate data*/
+	
+	.rate {
+		color: red;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		padding: .2em 0 .4em 0;
+	
+		font-size: 1em;
+		
+	}
+	
+	/*buttons call to action*/
+	
+	.callToAction {
+		
+		
+		height: 14em;
+		width: 100%;
+		color: white;
+		font-size: 1em;
+		background-color: black;
+		opacity: 90%;
+		text-align: center;
+		justify-content: center;
+		padding-top: 2em;
+		
+		}
+	.callToAction > button{
+		color: black;
+		background-color: red;
+		height: 2em;
+		width: 8em;
+		position: relative;
+		text-align: center;
+	}
+
+	
+	footer {
+		text-align: center;
+		bottom:0;
+	}
+		
+			
+	
+/* SEDAN & TRUCKS PAGE */
+
+	
+	.border-box {
+		border-style: solid;
+		border-color: black;
+		box-sizing: border-box;
+		float: left;
+		}
+	
+	div.border-box {
+		width: 15em;
+		height: 25em;
+				
+	}
+	
+h6	{
+	padding-left: 1em;
+	padding-top: 2em;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-bottom: 1em;
+	}
+	
+	.btn-group {
+		padding-top: 2.5em;
+		padding-left: 2em;
+		
+				
+	}
+	.btn-group > button {
+		width: 10em;
+		height: 2em;
+		text-align: center;
+		
+	}
+	.border > table {
+		border-style: solid;
+		border-color: black;
+		float: right;
+		right: 0;
+		table-layout: fixed;
+		}
+	
+	.border {
+		display: inline-table;
+		float: right;
+		right: 0;
+		table-layout: fixed;	
+		width: 100%;
+		}
+	
+	.type {
+		font-weight: bold;
+	}
+	
+	.price {
+		font-weight: bold;
+	}
+	
+	.mileage {
+		font-weight: bold;
+	}
+body {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	
+	/****************Responsive*****************/
+	
+ @media (max-width: 600px) {
+	 body {
+		 float: left;
+		 padding-left: 2em;
+		 }
+	
+	}
+	
+ 
